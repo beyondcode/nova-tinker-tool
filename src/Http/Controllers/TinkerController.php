@@ -14,6 +14,10 @@ class TinkerController
 
     public function tinker(Request $request)
     {
+        if (!app()->environment('local')) {
+            return $this->cleanOutput("Error: Can only run Tinker in local environment.");
+        }
+        
         $config = new Configuration([
             'updateCheck' => 'never'
         ]);
