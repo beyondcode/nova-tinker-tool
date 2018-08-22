@@ -1,7 +1,6 @@
 # Nova Tinker Tool
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/nova-tinker-tool.svg?style=flat-square)](https://packagist.org/packages/beyondcode/nova-tinker-tool)
-[![Quality Score](https://img.shields.io/scrutinizer/g/beyondcode/nova-tinker-tool.svg?style=flat-square)](https://scrutinizer-ci.com/g/beyondcode/nova-tinker-tool)
 [![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/nova-tinker-tool.svg?style=flat-square)](https://packagist.org/packages/beyondcode/nova-tinker-tool)
 
 Use the power of Tinker within your Nova application.
