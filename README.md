@@ -37,6 +37,12 @@ The return value will be displayed below.
 
 The previous code and output will be stored in the localstorage in case you want to execute the same code snippets multiple times.
 
+### Security: Remote Code Execution
+
+This should only be used for development and testing. Running tinker allows arbitrary code to be executed.
+
+Any executed php code will have the same access as the running php instance. This means that the running application may be altered, and if run with root privileges, one can get complete control of the machine. 
+
 ### Testing
 
 ``` bash
