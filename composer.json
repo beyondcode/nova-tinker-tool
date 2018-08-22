@@ -1,0 +1,44 @@
+{
+    "name": "beyondcode/nova-tinker-tool",
+    "description": "Use Laravel tinker from Nova.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "marcel@beyondco.de",
+            "homepage": "https://beyondco.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/tinker": "^1.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beyondcode\\TinkerTool\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Beyondcode\\TinkerTool\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beyondcode\\TinkerTool\\TinkerToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
