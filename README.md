@@ -12,7 +12,7 @@ Use the power of Tinker within your Nova application.
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require beyondcode/nova-tinker-tool
+composer require-dev beyondcode/nova-tinker-tool
 ```
 
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
