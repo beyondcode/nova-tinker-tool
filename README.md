@@ -37,6 +37,13 @@ The return value will be displayed below.
 
 The previous code and output will be stored in the localstorage in case you want to execute the same code snippets multiple times.
 
+### Settings
+
+By default this Pysh will attempt to write to ~/.pysh which for most will result in an error when trying to use tinker. To avoid this issue adding an environment variable to change where Pysh will write to will resolve this:
+```bash
+XDG_CONFIG_HOME=/path/to/new/location
+```
+
 ### Security: Remote Code Execution
 
 This should only be used for development and testing. Running tinker allows arbitrary code to be executed.
