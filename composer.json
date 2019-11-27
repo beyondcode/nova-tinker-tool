@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "laravel/tinker": "^1.0",
+        "laravel/tinker": "1 - 2",
         "laravel/nova": "*"
     },
     "autoload": {
